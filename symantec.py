@@ -59,7 +59,7 @@ def main(argv):
 		for i in (data["results"]):
 			print 'Coords: (', i["geometry"]["location"]["lat"], ', ', i["geometry"]["location"]["lng"] , ')'
 	else:
-		print 'Sorry, I did not find any results'
+		print 'Sorry, I did not find any results, blah'
 
 if __name__ == "__main__":
 	main(sys.argv[1:])
